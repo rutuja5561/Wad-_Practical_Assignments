@@ -1,0 +1,18 @@
+<div class="home-container" [ngStyle]="{'background-image': 'url(' + backgroundImage + ')', 
+'background-size': 'cover', 
+'background-position': 'center', 
+'height': '100vh'}">
+    <nav class="navbar">
+        <h2>Welcome, {{ user?.name }}!</h2>
+        <button (click)="logout()">Logout</button>
+    </nav>
+
+    <div class="card">
+        <h1>User Details</h1>
+        <h2><strong>Name:</strong> {{ user?.name }}</h2>
+        <h2><strong>Email:</strong> {{ user?.email }}</h2>
+    </div>
+    
+    
+</div>
+
