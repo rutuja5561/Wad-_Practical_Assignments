@@ -6,7 +6,7 @@ const app = express();
  
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb+srv://vedikabhusari23:23ved%2312ka%40%2A4@zomato.ur9q0.mongodb.net/Zomato?retryWrites=true&w=majority&appName=Zomato')
+mongoose.connect('mongodb+srv://kbtug22464:EPbQ6wlNAhKTejY2@cluster0.0nab3mv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 
 const StudentSchema = new mongoose.Schema({
     name:String,
